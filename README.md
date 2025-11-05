@@ -1,0 +1,1 @@
+# Segguran-a_LoRaWan_CEFET
