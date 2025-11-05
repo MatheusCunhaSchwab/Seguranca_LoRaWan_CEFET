@@ -1,1 +1,1 @@
-# Segguran-a_LoRaWan_CEFET
+# Seguranca_LoRaWan_CEFET
