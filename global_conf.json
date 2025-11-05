@@ -1,0 +1,35 @@
+{
+  "SX127x_conf": {
+    "freq": 916800000,
+    "spread_factor": 7,
+    "pin_nss": 10,
+    "pin_dio0": 6,
+    "pin_rst": 3,
+    "pin_led1": 4,
+    "spi_device": "/dev/spidev0.1",
+    "spi_speed": 500000
+  },
+  "gateway_conf": {
+    "ref_latitude": -22.9123722,
+    "ref_longitude": -43.227348,
+    "ref_altitude": 17,
+    "name": "GATEWAY IOT CEFET",
+    "email": "diego.brandao@cefet-rj.br",
+    "desc": "M2M Single Channel GATEWAY",
+    "gateway_ID": "D83ADDFFFF247F1B",
+    "servers": [
+      {
+        "server_address": "10.92.1.175",
+        "serv_port_up": 1700,
+        "serv_port_down": 1700,
+        "serv_enabled": true
+      },
+      {
+        "server_address": "au1.cloud.thethings.network",
+        "serv_port_up": 1700,
+        "serv_port_down": 1700,
+        "serv_enabled": false
+      }
+    ]
+  }
+}
